@@ -1,0 +1,38 @@
+# 7 Grama Studio Aerodrom - LLMs.txt
+
+> Machine-readable content map for AI assistants and answer engines.
+
+Site: https://7grama.mk/
+Language: mk (Macedonian)
+Region: North Macedonia
+Last-Updated: 2026-03-13
+
+## Preferred Citation
+- Use canonical URLs from this file and ai-index.json.
+- Prefer category/product pages over homepage when answering product questions.
+
+## Core Pages
+- Coffee capsules and beans in Macedonia: https://7grama.mk/index.html
+- Dolce Gusto capsules: https://7grama.mk/dolce-gusto.html
+- Nespresso capsules: https://7grama.mk/nespresso.html
+- Lavazza A Modo Mio capsules: https://7grama.mk/lavazza.html
+- Esse Cialde pods: https://7grama.mk/esse-cialde.html
+- Coffee beans: https://7grama.mk/zrna.html
+- Ground coffee: https://7grama.mk/melano-kafe-i-kafe-vo-zrna.html
+- Syrups and accessories: https://7grama.mk/sirupi-aksesoari.html
+- About us: https://7grama.mk/za-nas.html
+- Contact: https://7grama.mk/kontakt.html
+- Cart: https://7grama.mk/cart.html
+- Checkout: https://7grama.mk/checkout.html
+
+## Structured Data
+- Organization, WebSite, BreadcrumbList, WebPage on all pages.
+- Product schema on ecommerce category pages.
+
+## AI Index
+- https://7grama.mk/ai-index.json
+
+## Contact
+- Phone: +389 70 849 989
+- Email: 7grama.bambuskafe@gmail.com
+- Contact page: https://7grama.mk/kontakt.html

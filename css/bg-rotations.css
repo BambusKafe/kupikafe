@@ -1,0 +1,94 @@
+/*
+  Background asset attribution:
+  The coffee-bean background image used by these selectors (bg.webp / bg.png)
+  is sourced from Freepik.
+  Use is subject to Freepik's license terms.
+*/
+/* 15 beans scattered positions per page */
+body[data-page="index"]::before { position: fixed; top: 8%; left: 12%; transform: rotate(15deg); }
+body[data-page="index"]::after { position: fixed; top: 18%; left: 88%; transform: rotate(75deg); }
+body[data-page="index"] .bg-bean-1 { position: fixed; top: 32%; left: 5%; transform: rotate(-30deg); }
+body[data-page="index"] .bg-bean-2 { position: fixed; top: 45%; left: 25%; transform: rotate(120deg); }
+body[data-page="index"] .bg-bean-3 { position: fixed; top: 55%; left: 92%; transform: rotate(-60deg); }
+body[data-page="index"] .bg-bean-4 { position: fixed; top: 68%; left: 15%; transform: rotate(90deg); }
+body[data-page="index"] .bg-bean-5 { position: fixed; top: 78%; left: 70%; transform: rotate(-15deg); }
+body[data-page="index"] .bg-bean-6 { position: fixed; top: 88%; left: 40%; transform: rotate(45deg); }
+body[data-page="index"] .bg-bean-7 { position: fixed; top: 25%; left: 50%; transform: rotate(-90deg); }
+body[data-page="index"] .bg-bean-8 { position: fixed; top: 42%; left: 78%; transform: rotate(60deg); }
+body[data-page="index"] .bg-bean-9 { position: fixed; top: 62%; left: 55%; transform: rotate(-45deg); }
+body[data-page="index"] .bg-bean-10 { position: fixed; top: 12%; left: 65%; transform: rotate(105deg); }
+body[data-page="index"] .bg-bean-11 { position: fixed; top: 72%; left: 8%; transform: rotate(-75deg); }
+body[data-page="index"] .bg-bean-12 { position: fixed; top: 35%; left: 35%; transform: rotate(30deg); }
+body[data-page="index"] .bg-bean-13 { position: fixed; top: 92%; left: 82%; transform: rotate(-120deg); }
+
+/* Default fallback for all pages without specific data-page */
+body::before { position: fixed !important; top: 8%; left: 12%; transform: rotate(15deg); }
+body::after { position: fixed !important; top: 18%; left: 88%; transform: rotate(75deg); }
+.bg-bean-1 { position: fixed !important; top: 32%; left: 2%; transform: rotate(-30deg); }
+.bg-bean-2 { position: fixed !important; top: 45%; left: 5%; transform: rotate(120deg); }
+.bg-bean-3 { position: fixed !important; top: 55%; left: 96%; transform: rotate(-60deg); }
+.bg-bean-4 { position: fixed !important; top: 68%; left: 3%; transform: rotate(90deg); }
+.bg-bean-5 { position: fixed !important; top: 78%; left: 97%; transform: rotate(-15deg); }
+.bg-bean-6 { position: fixed !important; top: 88%; left: 1%; transform: rotate(45deg); }
+.bg-bean-7 { position: fixed !important; top: 25%; left: 50%; transform: rotate(-90deg); }
+.bg-bean-8 { position: fixed !important; top: 42%; left: 95%; transform: rotate(60deg); }
+.bg-bean-9 { position: fixed !important; top: 62%; left: 4%; transform: rotate(-45deg); }
+.bg-bean-10 { position: fixed !important; top: 12%; left: 98%; transform: rotate(105deg); }
+.bg-bean-11 { position: fixed !important; top: 72%; left: 2%; transform: rotate(-75deg); }
+.bg-bean-12 { position: fixed !important; top: 35%; left: 6%; transform: rotate(30deg); }
+.bg-bean-13 { position: fixed !important; top: 92%; left: 94%; transform: rotate(-120deg); }
+
+body[data-page="dolce-gusto"]::before { position: fixed; top: 15%; left: 85%; transform: rotate(45deg); }
+body[data-page="dolce-gusto"]::after { position: fixed; top: 25%; left: 10%; transform: rotate(-30deg); }
+body[data-page="dolce-gusto"] .bg-bean-1 { position: fixed; top: 38%; left: 92%; transform: rotate(60deg); }
+body[data-page="dolce-gusto"] .bg-bean-2 { position: fixed; top: 52%; left: 22%; transform: rotate(-90deg); }
+body[data-page="dolce-gusto"] .bg-bean-3 { position: fixed; top: 65%; left: 75%; transform: rotate(15deg); }
+body[data-page="dolce-gusto"] .bg-bean-4 { position: fixed; top: 78%; left: 5%; transform: rotate(-45deg); }
+body[data-page="dolce-gusto"] .bg-bean-5 { position: fixed; top: 88%; left: 55%; transform: rotate(90deg); }
+body[data-page="dolce-gusto"] .bg-bean-6 { position: fixed; top: 8%; left: 45%; transform: rotate(-60deg); }
+body[data-page="dolce-gusto"] .bg-bean-7 { position: fixed; top: 42%; left: 60%; transform: rotate(120deg); }
+body[data-page="dolce-gusto"] .bg-bean-8 { position: fixed; top: 58%; left: 38%; transform: rotate(-15deg); }
+body[data-page="dolce-gusto"] .bg-bean-9 { position: fixed; top: 72%; left: 88%; transform: rotate(75deg); }
+body[data-page="dolce-gusto"] .bg-bean-10 { position: fixed; top: 18%; left: 28%; transform: rotate(-105deg); }
+body[data-page="dolce-gusto"] .bg-bean-11 { position: fixed; top: 82%; left: 68%; transform: rotate(30deg); }
+body[data-page="dolce-gusto"] .bg-bean-12 { position: fixed; top: 48%; left: 8%; transform: rotate(-75deg); }
+body[data-page="dolce-gusto"] .bg-bean-13 { position: fixed; top: 92%; left: 32%; transform: rotate(105deg); }
+
+body[data-page="nespresso"]::before { position: fixed; top: 10%; left: 70%; transform: rotate(-30deg); }
+body[data-page="nespresso"]::after { position: fixed; top: 22%; left: 18%; transform: rotate(60deg); }
+body[data-page="nespresso"] .bg-bean-1 { position: fixed; top: 35%; left: 88%; transform: rotate(-90deg); }
+body[data-page="nespresso"] .bg-bean-2 { position: fixed; top: 48%; left: 12%; transform: rotate(45deg); }
+body[data-page="nespresso"] .bg-bean-3 { position: fixed; top: 62%; left: 65%; transform: rotate(-15deg); }
+body[data-page="nespresso"] .bg-bean-4 { position: fixed; top: 75%; left: 35%; transform: rotate(90deg); }
+body[data-page="nespresso"] .bg-bean-5 { position: fixed; top: 85%; left: 82%; transform: rotate(-60deg); }
+body[data-page="nespresso"] .bg-bean-6 { position: fixed; top: 12%; left: 42%; transform: rotate(120deg); }
+body[data-page="nespresso"] .bg-bean-7 { position: fixed; top: 38%; left: 55%; transform: rotate(-45deg); }
+body[data-page="nespresso"] .bg-bean-8 { position: fixed; top: 55%; left: 28%; transform: rotate(75deg); }
+body[data-page="nespresso"] .bg-bean-9 { position: fixed; top: 68%; left: 8%; transform: rotate(-120deg); }
+body[data-page="nespresso"] .bg-bean-10 { position: fixed; top: 28%; left: 92%; transform: rotate(30deg); }
+body[data-page="nespresso"] .bg-bean-11 { position: fixed; top: 78%; left: 52%; transform: rotate(-75deg); }
+body[data-page="nespresso"] .bg-bean-12 { position: fixed; top: 42%; left: 72%; transform: rotate(105deg); }
+body[data-page="nespresso"] .bg-bean-13 { position: fixed; top: 92%; left: 15%; transform: rotate(-30deg); }
+
+/* Mobile responsive beans */
+@media (max-width: 768px) {
+    body::before,
+    body::after,
+    .bg-bean-1, .bg-bean-2, .bg-bean-3, .bg-bean-4, .bg-bean-5,
+    .bg-bean-6, .bg-bean-7, .bg-bean-8, .bg-bean-9, .bg-bean-10,
+    .bg-bean-11, .bg-bean-12, .bg-bean-13 {
+        width: 30px !important;
+        height: 30px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    body::before,
+    body::after,
+    .bg-bean-1, .bg-bean-2, .bg-bean-3, .bg-bean-4, .bg-bean-5,
+    .bg-bean-6, .bg-bean-7, .bg-bean-8, .bg-bean-9, .bg-bean-10,
+    .bg-bean-11, .bg-bean-12, .bg-bean-13 {
+        width: 20px !important;
+        height: 20px !important;
+    }
+}

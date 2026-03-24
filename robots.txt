@@ -1,0 +1,31 @@
+User-agent: *
+Allow: /
+
+# Explicitly allow major AI crawlers for answer-engine indexing
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://7grama.mk/sitemap.xml
+
+# Disallow admin or backend paths if any
+Disallow: /backend/
+Disallow: /node_modules/
+
+# Allow all assets
+Allow: /assets/
+Allow: /css/
+Allow: /js/
+Allow: /llms.txt
+Allow: /ai-index.json

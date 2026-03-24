@@ -1,0 +1,12 @@
+[build]
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/send-contact"
+  to = "/.netlify/functions/send-contact"
+  status = 200
+
+[[redirects]]
+  from = "/api/send-order"
+  to = "/.netlify/functions/send-order"
+  status = 200

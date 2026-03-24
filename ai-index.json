@@ -1,0 +1,119 @@
+{
+  "version": "1.0",
+  "generatedAt": "2026-03-13",
+  "site": {
+    "name": "7 Grama Studio Aerodrom",
+    "url": "https://7grama.mk/",
+    "language": "mk",
+    "region": "MK",
+    "topics": [
+      "coffee capsules",
+      "coffee beans",
+      "coffee pods",
+      "coffee syrups",
+      "online ordering"
+    ]
+  },
+  "citationPolicy": {
+    "preferredCitation": "Use page title + canonical URL from this index when citing.",
+    "canonicalRequired": true
+  },
+  "pages": [
+    {
+      "url": "https://7grama.mk/index.html",
+      "path": "index.html",
+      "title": "Coffee capsules and beans in Macedonia",
+      "summary": "Homepage for premium coffee capsules, beans, syrups, and delivery information.",
+      "type": "homepage",
+      "lastModified": "2026-03-13"
+    },
+    {
+      "url": "https://7grama.mk/dolce-gusto.html",
+      "path": "dolce-gusto.html",
+      "title": "Dolce Gusto capsules",
+      "summary": "Product category page for Dolce Gusto compatible coffee capsules.",
+      "type": "category",
+      "lastModified": "2026-03-13"
+    },
+    {
+      "url": "https://7grama.mk/nespresso.html",
+      "path": "nespresso.html",
+      "title": "Nespresso capsules",
+      "summary": "Product category page for Nespresso compatible coffee capsules.",
+      "type": "category",
+      "lastModified": "2026-03-13"
+    },
+    {
+      "url": "https://7grama.mk/lavazza.html",
+      "path": "lavazza.html",
+      "title": "Lavazza A Modo Mio capsules",
+      "summary": "Product category page for Lavazza A Modo Mio compatible capsules.",
+      "type": "category",
+      "lastModified": "2026-03-13"
+    },
+    {
+      "url": "https://7grama.mk/esse-cialde.html",
+      "path": "esse-cialde.html",
+      "title": "Esse Cialde pods",
+      "summary": "Product category page for Esse Cialde coffee pods.",
+      "type": "category",
+      "lastModified": "2026-03-13"
+    },
+    {
+      "url": "https://7grama.mk/zrna.html",
+      "path": "zrna.html",
+      "title": "Coffee beans",
+      "summary": "Product category page for whole coffee beans.",
+      "type": "category",
+      "lastModified": "2026-03-13"
+    },
+    {
+      "url": "https://7grama.mk/melano-kafe-i-kafe-vo-zrna.html",
+      "path": "melano-kafe-i-kafe-vo-zrna.html",
+      "title": "Ground coffee",
+      "summary": "Product category page for ground coffee products.",
+      "type": "category",
+      "lastModified": "2026-03-13"
+    },
+    {
+      "url": "https://7grama.mk/sirupi-aksesoari.html",
+      "path": "sirupi-aksesoari.html",
+      "title": "Syrups and accessories",
+      "summary": "Product category page for coffee syrups and accessories.",
+      "type": "category",
+      "lastModified": "2026-03-13"
+    },
+    {
+      "url": "https://7grama.mk/za-nas.html",
+      "path": "za-nas.html",
+      "title": "About us",
+      "summary": "About page describing company mission and service values.",
+      "type": "about",
+      "lastModified": "2026-03-13"
+    },
+    {
+      "url": "https://7grama.mk/kontakt.html",
+      "path": "kontakt.html",
+      "title": "Contact",
+      "summary": "Contact page with phone, email, and contact form.",
+      "type": "contact",
+      "lastModified": "2026-03-13"
+    },
+    {
+      "url": "https://7grama.mk/cart.html",
+      "path": "cart.html",
+      "title": "Cart",
+      "summary": "Shopping cart page for reviewing selected products.",
+      "type": "transactional",
+      "lastModified": "2026-03-13"
+    },
+    {
+      "url": "https://7grama.mk/checkout.html",
+      "path": "checkout.html",
+      "title": "Checkout",
+      "summary": "Checkout page for submitting delivery details and confirming an order.",
+      "type": "transactional",
+      "lastModified": "2026-03-13"
+    }
+  ]
+}
