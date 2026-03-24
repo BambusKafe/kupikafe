@@ -1096,7 +1096,7 @@ function showOrderConfirmation() {
             '</div>' +
             '<h2>Нарачката е потврдена!</h2>' +
             '<p>Ќе контактираме за потврда и испорака.</p>' +
-            '<a href="index.html" class="btn btn-primary" style="margin-top: 30px;">Континуирај со купување</a>' +
+            '<a href="index.html" class="btn btn-primary" style="margin-top: 30px;">Продолжи со купување</a>' +
             '</div>';
     }
 }
