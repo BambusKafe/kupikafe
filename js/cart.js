@@ -993,6 +993,31 @@ function initCheckoutForm() {
             orderDate: new Date().toLocaleString('mk-MK')
         };
 
+        function openOrderMailtoFallback() {
+            const subject = encodeURIComponent('Нарачка - 7 Грама Студио');
+            const productLines = orderData.products.map(function(product) {
+                return '- ' + product.name +
+                    ' | количина: ' + product.quantity +
+                    ' | цена: ' + product.price.toFixed(2) +
+                    ' | вкупно: ' + product.total.toFixed(2);
+            }).join('\n');
+            const body = encodeURIComponent(
+                'Име: ' + orderData.customer.firstName + ' ' + orderData.customer.lastName + '\n' +
+                'Телефон: ' + orderData.customer.phone + '\n' +
+                'Е-маил: ' + orderData.customer.email + '\n' +
+                'Адреса: ' + orderData.customer.address + '\n' +
+                'Град: ' + orderData.customer.city + '\n' +
+                'Забелешка: ' + (orderData.customer.note || '-') + '\n' +
+                '\nПроизводи:\n' + productLines +
+                '\n\nМеѓузбир: ' + orderData.subtotal.toFixed(2) + ' ден.' +
+                '\nДостава: ' + orderData.delivery.toFixed(2) + ' ден.' +
+                '\nВкупно: ' + orderData.total.toFixed(2) + ' ден.' +
+                '\nДатум: ' + orderData.orderDate
+            );
+
+            window.location.href = 'mailto:7grama.bambuskafe@gmail.com?subject=' + subject + '&body=' + body;
+        }
+
         function finalizeSuccessfulOrder() {
             // Clear cart and refresh all cart-related UI state.
             cart = [];
@@ -1033,6 +1058,12 @@ function initCheckoutForm() {
                 }
 
                 if (!response.ok || !result || !result.success) {
+                    if (response.status === 404 || response.status >= 500) {
+                        openOrderMailtoFallback();
+                        showToast('Отворен е е-маил клиент за испраќање на нарачката.', 'success');
+                        return;
+                    }
+
                     const message = result && result.message ? result.message : 'Грешка при испраќање на нарачката';
                     throw new Error(message);
                 }
